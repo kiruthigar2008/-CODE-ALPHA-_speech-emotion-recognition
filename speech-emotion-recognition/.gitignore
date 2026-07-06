@@ -1,0 +1,21 @@
+# Data
+data/RAVDESS/
+data/TESS/
+data/EMO-DB/
+data/*.zip
+*.wav
+
+# Models (trained artifacts can be large - optional, remove if you want to push the model too)
+models/*.h5
+models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# OS
+.DS_Store
